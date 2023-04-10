@@ -1,4 +1,4 @@
-### Bundle React component with rollup
+## Bundle React component with rollup
 
 ```bash
 npm run build
@@ -6,7 +6,17 @@ npm run build
 
 creates `/dist/Component.min.js`
 
-### Config 
+
+```bash
+npm run dev
+```
+
+runs a watch
+
+---
+
+
+### Setup 
 
 List peer dependencies in `package.json` and add them to the `external` prop in `rollup.config.js`
 
